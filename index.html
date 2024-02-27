@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Joblisting</title>
+  </head>
+  <body>
+    <header>
+      <div class="container"></div>
+    </header>
+    <main>
+      <div class="container">
+        <ul id="job-list">
+          <template>
+            <li>
+              <div class="wrapper">
+                <img id="logo" src="" alt="" />
+                <div class="wrapper2">
+                  <p class="wrapper2__title" id="company-title">Photesnap</p>
+                  <p class="wrapper2__new" id="job-new">new</p>
+                  <p class="job-featured">Featured</p>
+                </div>
+              </div>
+              <div class="wrapper3">
+                <h4 id="job-title">Senior Frontend Developer</h4>
+                <p class="wrapper3__paragrof">
+                  <span id="postedAt">1d ago</span>
+                  <span id="contract">Full Time</span>
+                  <span id="location">USA only</span>
+                </p>
+              </div>
+              <div class="allfilter">
+                <div id="filters">
+                  <!-- <span>Frontend</span>
+                  <span>Senior</span>
+                  <span>HTML</span>
+                  <span>Css</span>
+                  <span>Java-Script</span> -->
+                </div>
+              </div>
+            </li>
+          </template>
+        </ul>
+      </div>
+    </main>
+    <script type="module" src="./public/app.js"></script>
+  </body>
+</html>
